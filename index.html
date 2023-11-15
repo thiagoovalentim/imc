@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <th>IMC</th>
+            <th>Classificação</th>
+        </thead>
+        <tr>
+            <td id="sub">Abaixo de 18,5</td>
+            <td id="txt">Abaixo do Peso</td>
+        </tr>
+        <tr>
+            <td id="sub">Entre 18,6 e 24,9</td>
+            <td id="txt">Peso ideal</td>
+        </tr>
+        <tr>
+            <td id="sub">Entre 25 e 29,9</td>
+            <td id="txt">Levemente acima do peso</td>
+        </tr>
+        <tr>
+            <td id="sub">Entre 30 e 34,9</td>
+            <td id="txt">Obesidade grau I</td>
+        </tr>
+        <tr>
+            <td id="sub">Entre 35 e 39,9</td>
+            <td id="txt">Obesidade grau II (severa)</td>
+        </tr>
+        <tr>
+            <td id="sub">Acima de 40</td>
+            <td id="txt">Obesidade grau III (mórbida)</td>
+        </tr>
+    </table>
+    <br>
+    <div class="container">
+        <div class="titulo">
+            <h1>CÁLCULO DE IMC</h1>
+        </div>
+
+        <div class="bloco">
+            <p>Digite seu peso: (Kg)</p>
+            <input type="number" id="peso">
+        </div>
+        <div class="bloco">
+            <p>Digite sua altura: (m)</p>
+            <input type="number" id="altura">
+        </div>
+        <input type="button" value="Ok" name="botao" id="botao" onclick="calcular()"> 
+        <div id="res"></div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

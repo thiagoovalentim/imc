@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'cedora';
+    src: url(fonts/Cedora-RegularStd.otf);
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family: 'cedora';
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #4F81BD;
+    color: white;   
+    line-height: 35px;
+}
+
+table thead th{
+    border: 1px solid white;
+
+}
+
+table #sub{
+    background-color: #D0D8E8;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+table #txt{
+    background-color: #E9EDF4;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+/* ---------------------------------- */
+
+.container{
+    border: 1px solid #023e7d;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .titulo{
+    font-size: 10px;
+    background-color: #023e7d;
+    color: white;
+    text-align: center;
+
+}
+
+.container .bloco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.container .bloco p{
+    width: 50%;
+    margin-right: 10%;
+}
+
+.container .bloco input{
+    width: 10%;
+}
+
+.container #botao {
+    width: 10%;
+    padding: 5px;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+#res{
+    text-align: center;
+}
